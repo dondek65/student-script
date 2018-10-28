@@ -8,7 +8,7 @@ function triangleArea(a, b, c)
 		{
 			var obwod = a+b+c;
 			var area = Math.sqrt(p*(p-a)*(p-b)*(p-c)); //Dominik Luber
-			
+			area = Math.round(area * 100) / 100;
 		return area;
 		}
 }
