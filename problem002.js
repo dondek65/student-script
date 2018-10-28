@@ -2,7 +2,7 @@ function stringRotate(a, b)
 	{
 		if (b<0 ||  isNaN(b))
 		{
-			const text = " ";
+			const text = "";
 			return text;
 		}
 
